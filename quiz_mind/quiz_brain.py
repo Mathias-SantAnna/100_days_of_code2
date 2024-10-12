@@ -20,12 +20,12 @@ class QuizBrain:
             print("Congrats! Correct Answer!")
         else:
             print(f"Your answer is wrong. The correct answer is {correct_answer}.")
-        print(f"Your score is {self.score}.")
+        print(f"Your current score is {self.score}.\n")
 
     def restart_game(self):
         while True:
             if not self.still_has_questions():
-                print(f"\nYour final score is {self.score}.")
+                print(f"\nYour final score is {self.score} out of {len(self.question_list)}.")
                 play_again = input("Do you want to play again? (Y/N): ").lower()
 
                 if play_again == "y":

@@ -15,5 +15,14 @@ question_data = [
     {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
     {"text": "No piece of square dry paper can be folded in half more than 7 times.",
      "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"},
+    {"text": "The inventor of the lightbulb, Thomas Edison, was afraid of the dark.", "answer": "True"},
+    {"text": "Bananas grow on trees.", "answer": "False"},
+    {"text": "The Eiffel Tower can be 15 cm taller during the summer.", "answer": "True"},
+    {"text": "Goldfish only have a memory of three seconds.", "answer": "False"},
+    {"text": "There are more stars in the sky than grains of sand on Earth.", "answer": "True"},
+    {"text": "Humans share 50% of their DNA with bananas.", "answer": "True"},
+    {"text": "Octopuses have three hearts.", "answer": "True"},
+    {"text": "The Great Wall of China is visible from space.", "answer": "False"}
+
 ]
