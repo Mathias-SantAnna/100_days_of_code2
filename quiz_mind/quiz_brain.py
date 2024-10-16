@@ -28,10 +28,16 @@ class QuizBrain:
                 play_again = input("Do you want to play again? (Y/N): ").lower()
 
                 if play_again == "y":
-                    self.question_number = 0  # Reset question number
-                    self.score = 0  # Reset score
-                    print("Restarting the game...\n")
-                    self.play_quiz()
+                    # Ask the user to choose a difficulty again
+                    from main import get_questions_for_difficulty
+                    question_bank = get_questions_for_difficulty()
+
+                    if question_bank:
+                        self.question_number = 0  # Reset question number
+                        self.score = 0  # Reset score
+                        self.question_list = question_bank  # Update the question list
+                        print("Restarting the game...\n")
+                        self.play_quiz()
                 else:
                     print("Thank you for playing!")
                     break
