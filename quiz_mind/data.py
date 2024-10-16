@@ -11,7 +11,7 @@ question_data = [
      "incorrect_answers": ["True"]},
     {"type": "boolean",
      "difficulty": "medium",
-     "question": "The title of the 1969 film &quot;Krakatoa, East_of Java&quot; is incorrect, as Krakatoa is in fact west of Java.",
+     "question": "The title of the 1969 film 'Krakatoa, East_of Java'; is incorrect, as Krakatoa is in fact west of Java.",
      "correct_answer": "True",
      "incorrect_answers": ["False"]},
     {"type": "boolean",
